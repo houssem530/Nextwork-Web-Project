@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -485,6 +487,20 @@
             color: var(--gray);
             font-size: 0.8rem;
         }
+
+        .footer-credit {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-credit i {
+            color: var(--warning);
+            margin: 0 5px;
+        }
     </style>
 </head>
 <body>
@@ -560,6 +576,11 @@
                     <!-- Tasks will be dynamically inserted here -->
                 </div>
             </section>
+        </div>
+
+        <!-- Footer Credit -->
+        <div class="footer-credit">
+            <i class="fas fa-code"></i> houssem was here - job is done! <i class="fas fa-heart"></i>
         </div>
     </div>
 
